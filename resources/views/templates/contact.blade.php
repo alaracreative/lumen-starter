@@ -3,7 +3,6 @@
 @section('title', 'Contact Us')
 
 @section('content')
-    {{ config('app.name') }}
     <section class="container">
         <h2>Contact Us</h2>
         <form method="post" action="/contact">
