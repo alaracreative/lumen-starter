@@ -25,7 +25,7 @@
     <meta name="msapplication-TileImage" content="/assets/img/favicon/mstile-144x144.png?v=vMM8vay4wG">
     <meta name="msapplication-config" content="/assets/img/favicon/browserconfig.xml?v=vMM8vay4wG">
     <meta name="theme-color" content="#faf9f2">
-    <title>@yield('title', config('app.name'))</title>
+    <title>{{ config('app.name') }} - @yield('title')</title>
     <link rel="stylesheet" href="/css/app.css">
 
     <!-- Scripts -->
