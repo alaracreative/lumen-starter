@@ -1,0 +1,9 @@
+.button {
+    border: none;
+    padding: 1em 2em;
+    background: palette(primary);
+    color: $white;
+    &:hover {
+        background: palette(primary, dark);
+    }
+}

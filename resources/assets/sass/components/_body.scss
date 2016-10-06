@@ -1,0 +1,28 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: #eee;
+}
+
+main {
+    background: white;
+}
+
+.container {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    @include respond-to(small) {
+        width: map-get($breakpoints, small);
+    }
+    @include respond-to(medium) {
+        width: map-get($breakpoints, medium);
+    }
+    @include respond-to(large) {
+        width: map-get($breakpoints, large);
+    }
+}
