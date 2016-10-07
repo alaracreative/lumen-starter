@@ -11,7 +11,7 @@ class PagesController extends Controller
         {
             return view('templates/' . $page, compact('request'));
         } else {
-            return '404';
+            return view('errors/404', compact('request'));
         }
     }
 }
